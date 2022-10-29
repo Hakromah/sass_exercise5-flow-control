@@ -1,0 +1,228 @@
+.content-1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 0.9375rem;
+}
+.content-1 p {
+  padding: 0.9375rem;
+}
+.content-1 .artc-1 {
+  border: 0.125rem solid #00b300;
+  color: red;
+  color: blue;
+}
+.content-1 .artc-2 {
+  border: 0.125rem solid #00b300;
+  color: red;
+}
+.content-1 .artc-3 {
+  border: 0.125rem solid #00b300;
+  color: red;
+  color: blue;
+}
+.content-1 .artc-4 {
+  border: 0.125rem solid #00b300;
+  color: red;
+}
+
+.content-2 {
+  border: 0.125rem solid #3333ff;
+  color: red;
+  margin: 0.9375rem;
+}
+.content-2 p {
+  color: green;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.main {
+  border: 0.125rem solid #ff3333;
+  color: red;
+  width: 85%;
+  margin: auto;
+}
+.main .title, .main .sub_title {
+  color: green;
+  margin: auto;
+  margin-top: 1.25rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  -webkit-text-decoration: underline blue;
+          text-decoration: underline blue;
+}
+.main .footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main .item1 {
+  background: #f2f2f2;
+  color: #0d0d0d;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item2 {
+  background: #e6e6e6;
+  color: #1a1a1a;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item3 {
+  background: #d9d9d9;
+  color: #262626;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item4 {
+  background: #cccccc;
+  color: #333333;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item5 {
+  background: #bfbfbf;
+  color: #404040;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item6 {
+  background: #b3b3b3;
+  color: #4d4d4d;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item7 {
+  background: #a6a6a6;
+  color: #595959;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item8 {
+  background: #999999;
+  color: #666666;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item9 {
+  background: #8c8c8c;
+  color: #737373;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item10 {
+  background: gray;
+  color: gray;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+  background: blue;
+  color: red;
+  font-weight: bold;
+}
+.main .item11 {
+  background: #737373;
+  color: #8c8c8c;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item12 {
+  background: #666666;
+  color: #999999;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item13 {
+  background: #595959;
+  color: #a6a6a6;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item14 {
+  background: #4d4d4d;
+  color: #b3b3b3;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item15 {
+  background: #404040;
+  color: #bfbfbf;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item16 {
+  background: #333333;
+  color: #cccccc;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item17 {
+  background: #262626;
+  color: #d9d9d9;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item18 {
+  background: #1a1a1a;
+  color: #e6e6e6;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item19 {
+  background: #0d0d0d;
+  color: #f2f2f2;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 0.125rem solid red;
+}
+.main .item3, .main .item6, .main .item9, .main .item12, .main .item15, .main .item18, .main .item1rem {
+  font-size: 3rem;
+}
+.main .item3, .main .item6, .main .item9, .main .item12, .main .item15, .main .item18, .main .item2rem {
+  font-size: 3rem;
+}
+.main .item3, .main .item6, .main .item9, .main .item12, .main .item15, .main .item18, .main .item3rem {
+  font-size: 3rem;
+}
+.main .item2, .main .item5, .main .item7, .main .item10, .main .item13, .main .item16, .main .item19, .main .item1rem {
+  font-size: 2rem;
+}
+.main .item2, .main .item5, .main .item7, .main .item10, .main .item13, .main .item16, .main .item19, .main .item2rem {
+  font-size: 2rem;
+}
+.main .item2, .main .item5, .main .item7, .main .item10, .main .item13, .main .item16, .main .item19, .main .item3rem {
+  font-size: 2rem;
+}
+.main .item1, .main .item4, .main .item8, .main .item11, .main .item14, .main .item17, .main .item1rem {
+  font-size: 1rem;
+}
+.main .item1, .main .item4, .main .item8, .main .item11, .main .item14, .main .item17, .main .item2rem {
+  font-size: 1rem;
+}
+.main .item1, .main .item4, .main .item8, .main .item11, .main .item14, .main .item17, .main .item3rem {
+  font-size: 1rem;
+}
+.main .sub_title {
+  border: 0.125rem solid red;
+  padding: 1.125rem;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

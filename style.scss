@@ -1,0 +1,119 @@
+@use "modules.scss" as f;
+@use "sass:color";
+$base: green;
+$blue-color: blue;
+$red-color: red;
+$rem15: 15;
+$rem2: 2;
+$rem18: 18;
+$remfon: 24;
+$rem20: 20;
+$rem3: 3;
+$boxbackground: black;
+$footcolor: #fff;
+$boxsize:45;
+
+$font-sizes: (1rem, 2rem, 3rem);
+
+@mixin article-card($blue-color, $border-color: $base, $font-size: 1rem){
+    border:f.rem($rem2) solid color.adjust($blue-color, $lightness: +10%);
+    color: $red-color;
+};
+
+.content-1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: f.rem($rem15);
+    p{
+        padding: f.rem($rem15);
+    }
+    
+    .artc-1 {
+        @include article-card($base);
+        color: $blue-color;
+        
+    }
+    .artc-2 {
+        @include article-card($base);
+     
+    }
+    .artc-3 {
+        @include article-card($base);
+        color: $blue-color;
+        
+    }
+    .artc-4 {
+        @include article-card($base);
+        
+    }
+}
+
+.content-2 {
+    @include article-card($blue-color);
+    margin: f.rem($rem15);
+    p{
+        color: $base;
+        text-align: center;
+        font-size: f.rem($remfon);
+    }
+}
+
+.main {
+    @include article-card ($red-color);
+    width: 85%;
+    margin: auto;
+    .title {
+        color: $base;
+        margin:auto;
+        margin-top: f.rem($rem20);
+        width: fit-content;
+        text-align: center;
+        text-decoration: underline $blue-color;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    @for $hk from 1 through 19 {
+        .item#{$hk} {
+            background: darken(#fff, $hk * 5);
+            color: lighten(black, $hk * 5);
+            width: f.rem($boxsize);
+            height: f.rem($boxsize);
+            border: f.rem($rem2) solid $red-color;
+            @if $hk == 10 {
+                background: blue;
+                color: red;
+                font-weight: bold;
+            }
+        } 
+    }
+    
+    @each $size in $font-sizes{
+        .item3,.item6,.item9, .item12, .item15, .item18, .item#{$size} {
+            font-size: 3rem;
+        } 
+    }
+
+    @each $size in $font-sizes{
+        .item2,.item5,.item7, .item10, .item13, .item16, .item19, .item#{$size} {
+            font-size: 2rem;
+        } 
+    } 
+    @each $size in $font-sizes{
+        .item1,.item4,.item8, .item11, .item14, .item17, .item#{$size} {
+            font-size: 1rem;
+        } 
+    } 
+    
+    .sub_title {
+        @extend .title;
+        border: f.rem($rem2) solid $red-color;
+        padding: f.rem($rem18);
+        text-decoration: none;
+    }
+
+}
